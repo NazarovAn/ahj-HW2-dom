@@ -1,6 +1,8 @@
+import goblin from '../img/goblin.png';
+
 const fields = [...document.getElementsByClassName('field')];
 const goblinEl = document.createElement('img');
-goblinEl.src = 'goblin.png';
+goblinEl.src = goblin;
 goblinEl.className = 'img';
 
 export default function getRandomInt(min, max) {
@@ -22,4 +24,4 @@ setInterval(() => {
   }
 
   nextField.appendChild(goblinEl);
-}, 2000);
+}, 600);

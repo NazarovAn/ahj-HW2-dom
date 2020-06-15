@@ -22,4 +22,4 @@ setInterval(() => {
   }
 
   nextField.appendChild(goblinEl);
-}, 600);
+}, 2000);
